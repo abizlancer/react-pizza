@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'proxima-nova';
+  font-weight: 400;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  background: #FFDF8C;
+  padding: 53px 0;
+}
+.wrapper {
+  max-width: 1340px;
+  width: 97%;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 10px;
+}
