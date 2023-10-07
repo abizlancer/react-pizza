@@ -1,4 +1,3 @@
-import { Fragment } from "react";
 import { Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 
@@ -19,7 +18,7 @@ const App = () => {
         <Route path="/" element={<Header />}>
           <Route index element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/product" element={<Product />} />
+          <Route path="/cart" element={<Product />} />
         </Route>
       </Routes>
     </div>
