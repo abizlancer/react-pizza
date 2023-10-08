@@ -1,9 +1,8 @@
 import { Routes, Route } from "react-router-dom";
-import Header from "./components/Header";
+import Header from "./components/Header.component";
+import Home from "./pages/Home";
 
-const Home = () => {
-  return <h1>Home page</h1>;
-};
+
 const About = () => {
   return <h1>About page</h1>;
 };
