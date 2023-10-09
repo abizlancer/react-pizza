@@ -15,7 +15,7 @@ const Categories = () => {
       <div className="categories">
         <div className="categories__items">
           {categories.map((category, key) => {
-            return <button className="categories__items--btn" key={key}>{category}</button>;
+            return <button className={`categories__items--btn ${key == 0 ? 'active' : ''}`} key={key}>{category}</button>;
           })}
         </div>
         <div className="categories__sort">

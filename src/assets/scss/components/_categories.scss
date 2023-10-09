@@ -58,6 +58,11 @@
         overflow: hidden;
         padding: 13px 0;
         box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.03);
+        display: none;
+        flex-direction: column;
+        &.active {
+          display: flex;
+        }
         // border: 1px solid red;
         
         li {
