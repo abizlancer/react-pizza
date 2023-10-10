@@ -20,7 +20,7 @@
       font-weight: 700;
       cursor: pointer;
       transition: 0.2s ease-in-out;
-      &:hover, &.active {
+      &.active {
         background: #2C2C2C;
         color: #F9F9F9;
       }
@@ -28,6 +28,7 @@
   }
   &__sort {
     @extend .categories__items;
+    width: 230px;
     
     span {
       @extend .categories__items;
